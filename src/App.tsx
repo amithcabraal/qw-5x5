@@ -250,7 +250,7 @@ function App() {
         </div>
 
         <p className="text-gray-600 dark:text-gray-400 mb-2">
-          Find five 5-letter words about: {currentSet.theme}
+          Find five 5-letter words about: <b>{currentSet.theme}</b>
         </p>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
           Set {currentSetIndex + 1} of {wordSets.length}
